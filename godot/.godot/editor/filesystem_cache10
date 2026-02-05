@@ -1,0 +1,27 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1770255692
+export_presets.cfg::TextFile::-1::1770179299::0::1::::<><><>0<>0<><>::
+hud.tscn::PackedScene::7001020178742988196::1770177749::0::1::::<><><>0<>0<><>::uid://ecurnida4gma::::res://fonts/Xolonium-Regular.ttf
+icon.svg::CompressedTexture2D::4302216119588241947::1769350768::1769350772::1::::<><><>0<>0<>24aff092ec8d2bd311451f19393a4f50<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene::4050523545423059911::1770170882::0::1::::<><><>0<>0<><>::uid://h87cmofplg3w::::res://mob.tscn<>uid://oj0oouh4mwtt::::res://player.tscn<>uid://c60l1rc06lusi::::res://hud.tscn<>uid://f2j3440an5rr::::res://art/gameover.wav
+mob.tscn::PackedScene::561393538861661902::1770001065::0::1::::<><><>0<>0<><>::uid://bu04cirg7df3f::::res://art/enemyFlyingAlt_1.png<>uid://d3ewpl0xksrsr::::res://art/enemyFlyingAlt_2.png<>uid://drh8bkg607smd::::res://art/enemySwimming_1.png<>uid://sd3sn65mo4ur::::res://art/enemySwimming_2.png<>uid://cwvnswo7a1a6b::::res://art/enemyWalking_1.png<>uid://dcswhvxxtr71::::res://art/enemyWalking_2.png
+player.tscn::PackedScene::1002766903233111297::1769586836::0::1::::<><><>0<>0<><>::uid://glf17ymd2jwh::::res://art/playerGrey_up1.png<>uid://d16v8olwqnl5x::::res://art/playerGrey_up2.png<>uid://sjxptglv41oh::::res://art/playerGrey_walk1.png<>uid://d141xrjed54vq::::res://art/playerGrey_walk2.png
+rust.gdextension::GDExtension::7313852497780413814::1770255569::0::1::::<><><>0<>0<><>::
+::res://art/::1769483572
+enemyFlyingAlt_1.png::CompressedTexture2D::3843571811447256553::1769483487::1769483572::1::::<><><>0<>0<>1f5bbe3cfc094962fa22e8707444b79f<>res://.godot/imported/enemyFlyingAlt_1.png-559f599b16c69b112c1b53f6332e9489.ctex::
+enemyFlyingAlt_2.png::CompressedTexture2D::9134170362145952521::1769483487::1769483572::1::::<><><>0<>0<>ba7d00f089b87f21acaafd9865254f8e<>res://.godot/imported/enemyFlyingAlt_2.png-31dc7310eda6e1b721224f3cd932c076.ctex::
+enemySwimming_1.png::CompressedTexture2D::8368929019704983763::1769483487::1769483572::1::::<><><>0<>0<>998d2a772abe9a2291ea5c18390b51a9<>res://.godot/imported/enemySwimming_1.png-dd0e11759dc3d624c8a704f6e98a3d80.ctex::
+enemySwimming_2.png::CompressedTexture2D::1271325270906683357::1769483487::1769483572::1::::<><><>0<>0<>cfc8c265d7a5aeababa6c30a8568c17b<>res://.godot/imported/enemySwimming_2.png-4c0cbc0732264c4ea3290340bd4a0a62.ctex::
+enemyWalking_1.png::CompressedTexture2D::6361170504050343535::1769483487::1769483572::1::::<><><>0<>0<>db1a274c38a122f6612f9783f2a68402<>res://.godot/imported/enemyWalking_1.png-5af6eedbe61b701677d490ffdc1e6471.ctex::
+enemyWalking_2.png::CompressedTexture2D::215827880938782534::1769483487::1769483572::1::::<><><>0<>0<>da58771f983a7676639b180f525a2d79<>res://.godot/imported/enemyWalking_2.png-67c480ed60c35e95f5acb0436246b935.ctex::
+gameover.wav::AudioStreamWAV::407280441826925203::1769483487::1769483572::1::::<><><>0<>0<>149d5b5c5bc2980a19f689645736897a<>res://.godot/imported/gameover.wav-98c95c744b35280048c2bd093cf8a356.sample::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::7775085195799349666::1769483487::1769483572::1::::<><><>0<>0<>31227bfc7a2529e1029b23b4025a301a<>res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr::
+playerGrey_up1.png::CompressedTexture2D::444192951101028511::1769483487::1769483572::1::::<><><>0<>0<>8a3186c5e50fd15469804eb84bd3993c<>res://.godot/imported/playerGrey_up1.png-6bd114d0a6beac91f48e3a7314d44564.ctex::
+playerGrey_up2.png::CompressedTexture2D::9049502437432191527::1769483487::1769483572::1::::<><><>0<>0<>4c63277778ca356732cd2ff26d72c315<>res://.godot/imported/playerGrey_up2.png-d6aba85f5f2675ebc7045efa7552ee79.ctex::
+playerGrey_walk1.png::CompressedTexture2D::1283402870754825315::1769483487::1769483572::1::::<><><>0<>0<>d3f26fcd443447f4c45c8da67f51654c<>res://.godot/imported/playerGrey_walk1.png-c4773fe7a7bf85d7ab732eb4458c2742.ctex::
+playerGrey_walk2.png::CompressedTexture2D::9045659562594775598::1769483487::1769483572::1::::<><><>0<>0<>9df617adbf9c900aac165fbd6838c363<>res://.godot/imported/playerGrey_walk2.png-34d2d916366100182d08037c51884043.ctex::
+::res://fonts/::1769483572
+FONTLOG.txt::TextFile::-1::1769483487::0::1::::<><><>0<>0<><>::
+LICENSE.txt::TextFile::-1::1769483487::0::1::::<><><>0<>0<><>::
+Xolonium-Regular.ttf::FontFile::286129523711402232::1769483487::1769483572::1::::<><><>0<>0<>568ce2ad6acb4dfc3f4bcb8c4f9d58ef<>res://.godot/imported/Xolonium-Regular.ttf-bc2981e3069cff4c34dd7c8e2bb73fba.fontdata::
+::res://release/::1770179298

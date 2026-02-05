@@ -1,0 +1,11 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"] # 将此crate编译为动态C库 （dynamic C library）.
+
+[dependencies]
+godot = "0.4.5"
+rand = "0.9.2"
