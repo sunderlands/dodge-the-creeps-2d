@@ -32,31 +32,31 @@ impl INode for Main {
             .get_node_as::<Player>("Player")
             .signals()
             .hit()
-            .connect_other(self, Self::game_over);
+            .connect_other(&*self, Self::game_over);
 
         self.base()
             .get_node_as::<Timer>("MobTimer")
             .signals()
             .timeout()
-            .connect_other(self, Self::on_mob_timer_timeout);
+            .connect_other(&*self, Self::on_mob_timer_timeout);
 
         self.base()
             .get_node_as::<Timer>("ScoreTimer")
             .signals()
             .timeout()
-            .connect_other(self, Self::on_score_timer_timeout);
+            .connect_other(&*self, Self::on_score_timer_timeout);
 
         self.base()
             .get_node_as::<Timer>("StartTimer")
             .signals()
             .timeout()
-            .connect_other(self, Self::on_start_timer_timeout);
+            .connect_other(&*self, Self::on_start_timer_timeout);
 
         self.base()
             .get_node_as::<Hud>("Hud")
             .signals()
             .start_game()
-            .connect_other(self, Self::new_game);
+            .connect_other(&*self, Self::new_game);
     }
 }
 #[godot_api]

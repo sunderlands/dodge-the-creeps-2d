@@ -19,13 +19,13 @@ impl ICanvasLayer for Hud {
             .get_node_as::<Button>("StartButton")
             .signals()
             .pressed()
-            .connect_other(self, Self::on_start_button_pressed);
+            .connect_other(&*self, Self::on_start_button_pressed);
 
         self.base()
             .get_node_as::<Timer>("MessageTimer")
             .signals()
             .timeout()
-            .connect_other(self, Self::on_message_timer_timeout);
+            .connect_other(&*self, Self::on_message_timer_timeout);
     }
 }
 #[godot_api]

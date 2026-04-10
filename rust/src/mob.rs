@@ -34,7 +34,7 @@ impl IRigidBody2D for Mob {
             .get_node_as::<VisibleOnScreenNotifier2D>("VisibleOnScreenNotifier2D")
             .signals()
             .screen_exited()
-            .connect_other(self, Self::on_screen_exited);
+            .connect_other(&*self, Self::on_screen_exited);
     }
 }
 #[godot_api]
